@@ -1,0 +1,61 @@
+/* Author: nur abas eedat2*/
+/* Reset some default styles */
+body, html {
+   margin: 0;
+   padding: 0;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-color: #000;
+   color: #fff;
+}
+header { text-align: center;
+   background: #121212;
+   padding: 20px 0;
+   width: 100%;
+   top: 0;
+   z-index: 100;
+}
+nav ul {
+   list-style-type: none;
+   text-align: center;
+}
+nav ul li {
+   display: inline;
+   margin: 0 25px;
+}
+nav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-size: 18px;
+}
+main {
+   padding-top: 60px; /* Adjusted to not be hidden by fixed header */
+   padding: 20px;
+   text-align: center;
+}
+footer {
+   background: #121212;
+   color: #fff;
+   text-align: center;
+   padding: 10px;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+}
+
+.left {
+   width: 50%;
+   text-align: left;
+   float: left;
+}
+
+.right {
+   width: 50%;
+   float: right;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+/* Referens till eleven: https://www.w3schools.com/css/default.asp */
